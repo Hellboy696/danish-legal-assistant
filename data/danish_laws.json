@@ -1,0 +1,102 @@
+[
+  {
+    "id": "law_001",
+    "category": "immigration",
+    "title": "Work Permit Requirements for Non-EU Citizens",
+    "law_reference": "Danish Immigration Act §42",
+    "content": "According to the Danish Immigration Act §42, all non-EU citizens, including Ukrainian passport holders, are required to obtain a valid work permit before commencing employment in Denmark. The work permit must be applied for and approved prior to arrival in Denmark. Application processing time is typically 2-3 months. Applications must be submitted through the Danish Agency for International Recruitment and Integration (SIRI). The employer in Denmark must sponsor the application and provide documentation of the job offer, salary details, and working conditions.",
+    "keywords": ["work permit", "non-EU", "Ukraine", "SIRI", "employment"],
+    "date_enacted": "2024-01-01",
+    "date_updated": "2025-01-01"
+  },
+  {
+    "id": "law_002",
+    "category": "tax",
+    "title": "Personal Income Tax Rates in Denmark",
+    "law_reference": "Danish Tax Law §123",
+    "content": "The Danish tax system consists of state tax (bottom bracket, top bracket, and health contribution) and municipal tax. For the tax year 2025, the total personal income tax rate ranges from 37% to 52.07% depending on income level. Income up to 50,000 DKK is taxed at approximately 37% (including municipal tax averaging 25% and state tax of 12.11%). Income above 50,000 DKK is subject to the top bracket tax rate, resulting in a marginal tax rate of approximately 52%. Tax is automatically withheld from salary by the employer based on the employee's tax card (skattekort).",
+    "keywords": ["income tax", "tax rate", "37%", "52%", "salary", "skattekort"],
+    "date_enacted": "2023-06-01",
+    "date_updated": "2025-01-01"
+  },
+  {
+    "id": "law_003",
+    "category": "labor",
+    "title": "Standard Working Hours and Overtime Regulations",
+    "law_reference": "Danish Labor Law §7 and EU Working Time Directive",
+    "content": "The standard working week in Denmark is 37 hours for full-time employees, as stipulated in most collective bargaining agreements and in accordance with Labor Law §7. The maximum working time, including overtime, must not exceed 48 hours per week averaged over a 4-month period, as per the EU Working Time Directive. Overtime work must be compensated either through additional pay (typically 1.5x or 2x the normal hourly rate for work on weekends and holidays) or through time off in lieu. Employees are entitled to a minimum of 11 consecutive hours of rest per 24-hour period and a minimum of 35 consecutive hours of rest per week.",
+    "keywords": ["working hours", "37 hours", "overtime", "compensation", "rest periods"],
+    "date_enacted": "2022-03-15",
+    "date_updated": "2024-06-01"
+  },
+  {
+    "id": "law_004",
+    "category": "immigration",
+    "title": "EU Blue Card for Highly Skilled Workers",
+    "law_reference": "Danish Immigration Act §15",
+    "content": "The EU Blue Card is a residence and work permit for highly skilled non-EU workers. To qualify for an EU Blue Card in Denmark, applicants must have: (1) a higher education degree (minimum Bachelor's level or equivalent) with at least 3 years duration, (2) a binding job offer or employment contract in Denmark, and (3) a gross annual salary of at least 450,000 DKK (approximately €60,000). The EU Blue Card is initially valid for up to 4 years and can be renewed. Blue Card holders are permitted to bring immediate family members (spouse and children under 18) to Denmark without additional salary requirements. After 18 months of legal residence with a Blue Card, holders may move to another EU country for highly skilled employment.",
+    "keywords": ["EU Blue Card", "highly skilled", "450000 DKK", "university degree", "family reunification"],
+    "date_enacted": "2021-08-01",
+    "date_updated": "2024-12-01"
+  },
+  {
+    "id": "law_005",
+    "category": "tax",
+    "title": "Tax Deductions for Employees",
+    "law_reference": "Danish Tax Law §156",
+    "content": "Danish taxpayers are entitled to various tax deductions. Common deductions for employees include: (1) Transportation expenses - commuting costs exceeding 1,200 DKK annually are deductible, with a maximum deduction of 25,000 DKK per year for standard commuting and up to 200,000 DKK for long-distance commuting (over 120 km each way). (2) Union membership fees - fully deductible from taxable income. (3) Pension contributions - mandatory pension contributions are tax-deductible, typically up to 12% of gross salary. (4) Mortgage interest - interest paid on home loans is deductible at a rate of 33.5% of the interest amount. (5) Unemployment insurance (A-kasse) fees are fully deductible. All deductions must be reported in the annual tax return.",
+    "keywords": ["tax deductions", "transportation", "pension", "mortgage interest", "union fees"],
+    "date_enacted": "2020-01-01",
+    "date_updated": "2025-01-01"
+  },
+  {
+    "id": "law_006",
+    "category": "labor",
+    "title": "Annual Vacation Entitlement",
+    "law_reference": "Danish Holiday Act §7",
+    "content": "According to the Danish Holiday Act §7, all employees in Denmark are entitled to a minimum of 5 weeks (25 days) of paid vacation per year. Vacation days are earned during one year (the earning year) and must be used during the following year (the vacation year), between May 1 and April 30. The earning period runs from September 1 to August 31. Employees earn 2.08 vacation days per month of employment. During vacation, employees receive vacation pay equivalent to 12.5% of their gross salary from the earning year. If vacation days are not used by September 30 following the vacation year, they expire, but the vacation pay must still be paid out to the employee. Some collective agreements provide 6 weeks of vacation.",
+    "keywords": ["vacation", "25 days", "5 weeks", "vacation pay", "12.5%"],
+    "date_enacted": "2020-09-01",
+    "date_updated": "2024-01-01"
+  },
+  {
+    "id": "law_007",
+    "category": "immigration",
+    "title": "Fast-Track Scheme for Certified Companies",
+    "law_reference": "Danish Immigration Act §9a",
+    "content": "The Fast-Track Scheme is a simplified procedure for certain companies to hire foreign workers from outside the EU/EEA. Companies must be certified by the Danish Agency for International Recruitment and Integration (SIRI) to participate. Certified companies can process work and residence permits for foreign employees with significantly reduced processing times - typically 2-4 weeks compared to the standard 2-3 months. To become certified, companies must meet requirements including: having a minimum of 20 full-time employees, being registered in Denmark for at least 2 years, and having no tax debt or violations of labor law. The Fast-Track Scheme applies to all types of residence and work permits, including EU Blue Cards and permits under the Pay Limit Scheme.",
+    "keywords": ["Fast-Track", "certified companies", "2-4 weeks", "SIRI", "quick processing"],
+    "date_enacted": "2019-09-01",
+    "date_updated": "2024-06-01"
+  },
+  {
+    "id": "law_008",
+    "category": "tax",
+    "title": "Tax Card System for Foreign Workers",
+    "law_reference": "Danish Tax Administration Act §3",
+    "content": "All individuals working in Denmark must have a Danish tax card (skattekort). Foreign workers should apply for a tax card before or immediately upon starting employment. The tax card can be obtained by registering with the Danish Tax Agency (Skattestyrelsen) and providing personal information, CPR number (Danish social security number), and employment details. The tax card is electronic and specifies the individual's tax rate, which is automatically shared with the employer. Without a valid tax card, employers must withhold tax at the highest rate of 52%. There are two types of tax cards: main tax card (hovedkort) for primary employment with personal allowance, and secondary tax card (bikort) for additional jobs without personal allowance. Foreign workers can also choose a flat-rate scheme with taxation at 27%, 32.84%, or 37% depending on qualifications.",
+    "keywords": ["tax card", "skattekort", "CPR number", "Skattestyrelsen", "foreign workers"],
+    "date_enacted": "2018-01-01",
+    "date_updated": "2024-07-01"
+  },
+  {
+    "id": "law_009",
+    "category": "labor",
+    "title": "Notice Periods for Employment Termination",
+    "law_reference": "Danish Salaried Employees Act §2",
+    "content": "Notice periods in Denmark vary based on length of employment (seniority). For employees covered by the Salaried Employees Act, the minimum notice periods from the employer are: (1) Up to 5 months of employment: 1 month notice. (2) 6 months to 2 years and 11 months: 3 months notice. (3) 3 years to 5 years and 11 months: 4 months notice. (4) 6 years to 8 years and 11 months: 5 months notice. (5) 9 years or more: 6 months notice. Employee notice periods are typically 1 month regardless of seniority, unless specified differently in the employment contract. During the probationary period (typically the first 3 months), either party can terminate with 14 days notice. Notice must be given by the last day of a calendar month to take effect from the end of the following month.",
+    "keywords": ["notice period", "termination", "seniority", "3 months", "probation"],
+    "date_enacted": "2017-07-01",
+    "date_updated": "2023-01-01"
+  },
+  {
+    "id": "law_010",
+    "category": "immigration",
+    "title": "Permanent Residence Requirements",
+    "law_reference": "Danish Immigration Act §11",
+    "content": "Non-EU citizens can apply for permanent residence in Denmark after meeting specific requirements. As of 2025, the main requirements are: (1) 8 years of continuous legal residence in Denmark (reduced from 9 years in 2024). Certain periods may not count, such as time on student permits or asylum processing. (2) Employment requirement: full-time employment (minimum 30 hours per week) for at least 3.5 of the last 4 years before application. (3) Danish language proficiency: passed Danish test at level PD3 or higher (intermediate level). (4) Citizenship test: passed the citizenship and society test. (5) Financial self-sufficiency: no receipt of public assistance (cash benefits, housing benefits, etc.) during the last 4 years. (6) No criminal record or outstanding public debt. (7) Signed a declaration of integration and active citizenship. Once granted, permanent residence provides the right to live and work in Denmark indefinitely and access to most social benefits.",
+    "keywords": ["permanent residence", "8 years", "PD3", "citizenship test", "integration"],
+    "date_enacted": "2024-06-01",
+    "date_updated": "2025-01-01"
+  }
+]
