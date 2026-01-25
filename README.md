@@ -1,26 +1,37 @@
+---
+title: Danish Legal Assistant
+emoji: 🏛️
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.30.0"
+app_file: streamlit_app.py
+pinned: false
+---
+
 # 🏛️ Danish Legal Assistant
 
-AI-powered assistant for searching Danish laws and regulations using semantic search.
+AI-powered assistant for searching Danish laws and regulations using semantic search. Built with LanceDB vector database and Sentence Transformers.
 
 ## 🚀 Live Demo
 
-**Try it here:** [https://huggingface.co/spaces/YOUR_USERNAME/danish-legal-assistant](https://huggingface.co/spaces/YOUR_USERNAME/danish-legal-assistant)
+**Try it here:** [https://huggingface.co/spaces/HellboySerhii/danish-legal-assistant](https://huggingface.co/spaces/HellboySerhii/danish-legal-assistant)
 
-*(Update this link after deployment)*
+## ✨ Features
 
-## 🎯 Features
-
-- **Semantic Search** - Find relevant Danish laws using natural language questions
-- **10 Danish Laws** - Covers Immigration, Tax, and Labor categories
-- **Fast Performance** - Search results in <50ms
-- **User-Friendly UI** - Built with Streamlit
-- **Source References** - All answers include law references and full text
+- 🔍 **Semantic Search** - Find relevant Danish laws using natural language questions
+- 📚 **10 Danish Laws** - Covers Immigration, Tax, and Labor categories
+- ⚡ **Fast Performance** - Search results in <50ms
+- 🎨 **User-Friendly UI** - Built with Streamlit
+- 📖 **Source References** - All answers include law references and full text
 
 ## 📚 Categories
 
-- 🔵 **Immigration** - Work permits, visas, residence permits
-- 🟢 **Tax** - Income tax, corporate tax, tax returns
-- 🟡 **Labor** - Employment contracts, vacation, termination
+| Category | Topics |
+|----------|--------|
+| 🔵 **Immigration** | Work permits, visas, residence permits |
+| 🟢 **Tax** | Income tax, corporate tax, tax returns |
+| 🟡 **Labor** | Employment contracts, vacation, termination |
 
 ## 🔧 Technologies
 
@@ -32,6 +43,10 @@ AI-powered assistant for searching Danish laws and regulations using semantic se
 ## 💻 Run Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/Hellboy696/danish-legal-assistant.git
+cd danish-legal-assistant
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -65,45 +80,37 @@ Streamlit UI (display)
 
 ## 📊 Performance Metrics
 
-- **Search Latency**: 8-33ms (avg: 17ms)
-- **Accuracy**: 100% on test queries
-- **Database Size**: 10 documents
-- **Model Load Time**: ~30 seconds (first run only)
+| Metric | Value |
+|--------|-------|
+| Search Latency | 8-33ms (avg: 17ms) |
+| Accuracy | 100% on test queries |
+| Database Size | 10 documents |
+| Model Load Time | ~30 seconds (first run) |
 
-## 📄 Documentation
-
-- **README_MVP.md** - Full technical documentation
-- **DEPLOY_GUIDE.md** - Deployment instructions
-- **ЗАПУСК_UI.md** - UI launch guide (Ukrainian)
-- **ЩО_МИ_РОБИМО_ПРОСТО.md** - Simple explanations (Ukrainian)
-
-## 🛠️ Project Structure
+## 🏗️ Project Structure
 
 ```
-danish_legal_mvp/
+danish-legal-assistant/
 ├── streamlit_app.py           # Main Streamlit UI
 ├── danish_legal_assistant.py  # Backend logic
-├── tool_calling_demo.py       # AI tool calling demo
 ├── data/
-│   └── danish_laws.json      # 10 Danish legal documents
+│   └── danish_laws.json       # 10 Danish legal documents
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 ```
 
 ## 🚀 Deployment
 
-This app is deployed on **Hugging Face Spaces** with automatic updates from GitHub.
+This app is deployed on Hugging Face Spaces with automatic updates from GitHub.
 
-### Deploy Your Own
+### Deploy Your Own:
 
 1. Fork this repository
-2. Create a new Space on [Hugging Face](https://huggingface.co/spaces)
-3. Select **Streamlit** as SDK
+2. Create a new Space on [Hugging Face](https://huggingface.co/new-space)
+3. Select Streamlit as SDK
 4. Link your GitHub repo
 5. Wait ~2-3 minutes for build
 6. Done! 🎉
-
-See **DEPLOY_GUIDE.md** for detailed instructions.
 
 ## 💡 Use Cases
 
@@ -112,7 +119,7 @@ See **DEPLOY_GUIDE.md** for detailed instructions.
 - **Tax Planning** - Find relevant tax laws quickly
 - **HR Compliance** - Verify labor law requirements
 
-## 📈 Future Enhancements
+## 🔄 Future Enhancements
 
 - [ ] Expand to 100+ Danish laws
 - [ ] Add multilingual support (Danish, Ukrainian, English)
@@ -122,9 +129,13 @@ See **DEPLOY_GUIDE.md** for detailed instructions.
 
 ## 👨‍💻 Author
 
-**Serhii** - AI Solutions Architect in training
+**Serhii Popov** - AI Solutions Architect in training
 
 Building towards 600-800K DKK salary with AI expertise.
+
+- 🔗 GitHub: [@Hellboy696](https://github.com/Hellboy696)
+- 🤗 HuggingFace: [@HellboySerhii](https://huggingface.co/HellboySerhii)
+- 💼 LinkedIn: [Serhii Popov](https://www.linkedin.com/in/serhii-popov-64490932b)
 
 ## 📝 License
 
@@ -135,3 +146,7 @@ MIT License - Feel free to use for your projects!
 **Built with ❤️ using Claude Code**
 
 *Part of the 18-month journey to AI Solutions Architect*
+
+## 📧 Other Projects
+
+- 🎯 [AI Resume Analyzer](https://huggingface.co/spaces/HellboySerhii/ai-resume-analyzer) - AI-powered resume analysis with Claude API
