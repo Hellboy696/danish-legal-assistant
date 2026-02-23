@@ -33,3 +33,16 @@ Thumbs.db
 .venv
 venv/
 ENV/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Dev/scratch JSON files in project root
+danish_laws_extended.json
+danish_laws_production.json
+
+# pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage

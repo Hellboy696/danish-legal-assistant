@@ -1,0 +1,1276 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "created": "2025-02-22",
+    "total_entries": 41,
+    "categories": {
+      "immigration": 16,
+      "tax": 10,
+      "labor": 10,
+      "business": 5
+    },
+    "sources": [
+      "nyidanmark.dk (official Danish immigration portal, SIRI)",
+      "skat.dk (Danish Tax Agency / Skattestyrelsen)",
+      "retsinformation.dk (official Danish legal database)",
+      "virk.dk (Danish business registration portal)",
+      "datatilsynet.dk (Danish Data Protection Agency)"
+    ],
+    "disclaimer": "This database provides summaries of Danish law for informational purposes only. Information is based on official government sources verified as of February 2025. Always consult official sources and a licensed legal professional for authoritative legal advice."
+  },
+  "laws": [
+    {
+      "id": "imm_pay_limit_001",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Pay Limit Scheme — Work Permit for High-Salary Jobs",
+      "title_da": "Beløbsordningen",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 12",
+      "content": "The Pay Limit Scheme (Beløbsordningen) allows non-EU/EEA citizens to obtain a residence and work permit in Denmark if offered a job with a sufficiently high annual salary. For 2026, the minimum annual salary is DKK 552,000 (adjusted every January 1). No specific educational background or professional field is required. Only the following salary components count: cash salary including fixed supplements, pension contributions (employer + employee), and paid holiday allowance. Benefits such as company car, phone, or housing are NOT counted. Salary must be paid into a Danish bank account (opened within 180 days of permit grant). Working hours must be at least 30 hours per week. The job cannot be covered by a legal labour conflict. Processing time is normally 1 month (up to 3 months if additional info needed). The fee is DKK 6,810. The permit is valid for up to 4 years for permanent contracts. Holders can change position within the same company without a new permit, but must apply for a new permit if changing employer. If dismissed (not own fault), a 6-month job-seeking permit can be obtained.",
+      "summary": "Work permit for jobs paying DKK 552,000+ annually. No education requirement. 1-month processing. Valid up to 4 years.",
+      "key_facts": {
+        "salary_threshold": "DKK 552,000/year (2026)",
+        "processing_time": "1 month (up to 3 months)",
+        "fee": "DKK 6,810",
+        "validity": "Up to 4 years"
+      },
+      "keywords": [
+        "pay limit",
+        "beløbsordningen",
+        "work permit",
+        "high salary",
+        "552000",
+        "DKK",
+        "SIRI"
+      ],
+      "related_laws": [
+        "imm_fast_track_002",
+        "imm_supplementary_pay_003"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Pay-limit-scheme",
+      "last_verified": "2025-02-22",
+      "practical_tips": "The salary threshold is adjusted annually on January 1. Benefits like company car do NOT count. Your employer can apply on your behalf using form AR6 with power of attorney."
+    },
+    {
+      "id": "imm_fast_track_002",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Fast-Track Scheme — Expedited Work Permits for Certified Companies",
+      "title_da": "Fast-track-ordningen",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 14",
+      "content": "The Fast-Track Scheme enables SIRI-certified companies to hire foreign workers with reduced processing times (~10 business days). Five tracks: (1) Pay Limit Track — salary ≥ DKK 552,000; (2) Supplementary Pay Limit Track — salary ≥ DKK 446,000 (sworn declaration required); (3) Short-Term Track — assignments up to 3 months; (4) Researcher Track; (5) Educational Track. Employer MUST be SIRI-certified. Applications submitted by employer online. Fee DKK 6,810. Permit valid up to 4 years. Family members can accompany.",
+      "summary": "Expedited work permits (~10 days) through SIRI-certified companies. Five tracks including pay limit, short-term, and researcher.",
+      "key_facts": {
+        "salary_threshold": "DKK 552,000 (pay limit) / DKK 446,000 (supplementary)",
+        "processing_time": "~10 business days",
+        "fee": "DKK 6,810",
+        "validity": "Up to 4 years"
+      },
+      "keywords": [
+        "fast-track",
+        "certified company",
+        "quick processing",
+        "SIRI certification",
+        "expedited"
+      ],
+      "related_laws": [
+        "imm_pay_limit_001",
+        "imm_supplementary_pay_003"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Fast-track",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Check if your employer is SIRI-certified on their website. Short-Term Track is great for project-based work up to 3 months."
+    },
+    {
+      "id": "imm_supplementary_pay_003",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Supplementary Pay Limit Scheme — Lower Salary Threshold",
+      "title_da": "Den supplerende beløbsordning",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 12a",
+      "content": "Alternative path with lower salary threshold of DKK 446,000 annually (2026). Additional conditions: applicant must not have received a fine ≥ DKK 3,000 and must sign a sworn declaration. If fined ≥ DKK 3,000 after permit grant, SIRI can withdraw the permit. Job-seeking permit is NOT available under this scheme. Processing ~1 month. Fee DKK 6,810. Min 30 hours/week. Also available as Fast-Track track.",
+      "summary": "Work permit with lower salary threshold (DKK 446,000) but no fines allowed and no job-seeking rights.",
+      "key_facts": {
+        "salary_threshold": "DKK 446,000/year (2026)",
+        "processing_time": "~1 month",
+        "fee": "DKK 6,810"
+      },
+      "keywords": [
+        "supplementary pay limit",
+        "446000",
+        "lower threshold",
+        "sworn declaration"
+      ],
+      "related_laws": [
+        "imm_pay_limit_001",
+        "imm_fast_track_002"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Supplementary-Pay-Limit-Scheme",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Unlike standard Pay Limit, you are NOT eligible for job-seeking permit if dismissed. Even a minor fine ≥ DKK 3,000 can cost you your permit."
+    },
+    {
+      "id": "imm_positive_list_skilled_004",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Positive List for Skilled Work — Shortage Professions",
+      "title_da": "Positivlisten for faglært arbejdskraft",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 1",
+      "content": "The Positive List for Skilled Work contains professions experiencing a shortage in Denmark. Updated twice yearly (January 1 and July 1) based on labour market monitoring, a-kasser assessments, and Regional Labour Market Councils. Each job listed with DISCO-08 code. Some professions only shortage in specific regions. Salary must match Danish standards (no fixed minimum). Quota of 1,000 permits for Social and Health Care Workers. Processing ~1 month. Fee DKK 6,810. Valid up to 4 years. Job-seeking permit available.",
+      "summary": "Work permit for professions on the shortage list. Updated twice yearly. No salary minimum but must match Danish standards.",
+      "key_facts": {
+        "processing_time": "~1 month",
+        "fee": "DKK 6,810",
+        "validity": "Up to 4 years",
+        "list_updates": "January 1 and July 1"
+      },
+      "keywords": [
+        "positive list",
+        "skilled work",
+        "shortage",
+        "positivlisten",
+        "DISCO-08",
+        "professions"
+      ],
+      "related_laws": [
+        "imm_positive_list_higher_ed_005",
+        "imm_pay_limit_001"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/The-Positive-Lists/Positive-List-for-skilled-work",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Check the list before applying — it changes every 6 months. IT professionals, engineers, healthcare workers commonly listed."
+    },
+    {
+      "id": "imm_positive_list_higher_ed_005",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Positive List for People with Higher Education",
+      "title_da": "Positivlisten for videregående uddannede",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 1",
+      "content": "Specifically for university-level qualifications in shortage. Updated twice yearly. Requires matching higher education degree for the listed profession. Some professions added by Regional Councils have geographic restrictions. Salary must match Danish standards. Processing ~1 month. Fee DKK 6,810. Valid up to 4 years. Job-seeking permit available.",
+      "summary": "Work permit for university-educated professionals in shortage professions. Requires matching degree.",
+      "key_facts": {
+        "processing_time": "~1 month",
+        "fee": "DKK 6,810",
+        "validity": "Up to 4 years"
+      },
+      "keywords": [
+        "positive list",
+        "higher education",
+        "university degree",
+        "shortage",
+        "professionals"
+      ],
+      "related_laws": [
+        "imm_positive_list_skilled_004",
+        "imm_researcher_006"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Positive-List-Higher-Education",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Your degree must specifically match the education requirement. Software developers, engineers, and medical professionals are commonly listed."
+    },
+    {
+      "id": "imm_researcher_006",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Researcher Scheme — Residence Permit for Researchers",
+      "title_da": "Forskerordningen",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 5",
+      "content": "For researchers, guest researchers, and PhD students with employment at Danish research institutions/universities/companies. Salary must match Danish standards. Processing ~1 month. Fee DKK 6,810. Valid for contract duration up to 4 years. Can work in Denmark and abroad. 6-month job-seeking permit after completion. Also available as Fast-Track track.",
+      "summary": "Work permit for researchers and employed PhD students. 1-month processing, up to 4 years.",
+      "key_facts": {
+        "processing_time": "~1 month",
+        "fee": "DKK 6,810",
+        "validity": "Up to 4 years"
+      },
+      "keywords": [
+        "researcher",
+        "PhD",
+        "research",
+        "university",
+        "forskerordningen",
+        "academic"
+      ],
+      "related_laws": [
+        "imm_fast_track_002",
+        "imm_study_phd_008",
+        "tax_researcher_scheme_008"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Researcher",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Employed PhD students should use this scheme (full work rights). The researcher tax scheme (27% flat rate) may also apply."
+    },
+    {
+      "id": "imm_study_higher_ed_007",
+      "category": "immigration",
+      "subcategory": "study",
+      "title": "Residence Permit for Higher Education Studies",
+      "title_da": "Opholdstilladelse til videregående uddannelse",
+      "law_reference": "Udlændingeloven §9i, stk. 1",
+      "content": "Students on Danish student visa: allowed to work part-time up to 90 hours/month while studying. Student work permit hours limit. Non-EU/EEA citizens accepted into state-approved higher education in Denmark. Requirements: acceptance letter, proof of financial support, passport, health insurance. Work allowed: 90 hours/month during academic year, full-time June-August. After graduation: 6-month to 3-year job-seeking permit depending on programme. Fee DKK 2,255. Biometric registration within 14 days.",
+      "summary": "Study permit with work rights (90 hrs/month). 6-month to 3-year job-seeking after graduation.",
+      "key_facts": {
+        "fee": "DKK 2,255",
+        "work_allowed": "90 hours/month, full-time summer",
+        "job_seeking_after": "6 months to 3 years"
+      },
+      "keywords": [
+        "study",
+        "student",
+        "university",
+        "higher education",
+        "90 hours",
+        "graduation",
+        "part time",
+        "part-time",
+        "student work",
+        "student job",
+        "work while studying",
+        "student work permit",
+        "student hours",
+        "student employment",
+        "student visa work",
+        "work as student",
+        "student rights work"
+      ],
+      "related_laws": [
+        "imm_study_phd_008",
+        "imm_researcher_006"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-education",
+      "last_verified": "2025-02-22",
+      "practical_tips": "The 90 hours/month limit is strictly enforced. After graduation you get 6 months to 3 years to find a job."
+    },
+    {
+      "id": "imm_study_phd_008",
+      "category": "immigration",
+      "subcategory": "study",
+      "title": "Residence Permit for PhD Students",
+      "title_da": "Opholdstilladelse til ph.d.-studerende",
+      "law_reference": "Udlændingeloven §9i (scholarship) / §9a (employed)",
+      "content": "Two paths: (1) Employed by university → Researcher Scheme (full work rights, DKK 6,810 fee). (2) Scholarship/externally funded → study permit (90 hrs/month work, DKK 2,255 fee). Upon completing PhD: 3-year job-seeking residence permit. During job-seeking: 90 hours/month work, full-time in summer.",
+      "summary": "PhD: employed = Researcher Scheme (full work), scholarship = study permit (90 hrs/month). 3-year job-seeking after.",
+      "key_facts": {
+        "fee": "DKK 6,810 (employed) / DKK 2,255 (scholarship)",
+        "job_seeking": "3 years after completion"
+      },
+      "keywords": [
+        "PhD",
+        "doctoral",
+        "researcher",
+        "scholarship",
+        "3 year job seeking"
+      ],
+      "related_laws": [
+        "imm_researcher_006",
+        "imm_study_higher_ed_007"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/PhD",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Employed PhD students get full work rights. PhD completers get an exceptionally generous 3-year job-seeking period."
+    },
+    {
+      "id": "imm_startup_009",
+      "category": "immigration",
+      "subcategory": "work_permits",
+      "title": "Start-Up Denmark — Entrepreneur Residence Permit",
+      "title_da": "Start-Up Denmark",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 13",
+      "content": "Residence permit for foreign entrepreneurs establishing innovative businesses. Business plan must be approved by expert panel (Danish Business Authority). Must be innovative, scalable, viable. No minimum salary or investment required but must be self-sufficient. Permit initially 2 years, extendable to 5. Fee DKK 2,255. Cannot be employed by other companies while on this permit.",
+      "summary": "Entrepreneur permit. Expert panel must approve innovative business plan. 2+3 year validity. DKK 2,255 fee.",
+      "key_facts": {
+        "fee": "DKK 2,255",
+        "validity": "2 years (extendable to 5)"
+      },
+      "keywords": [
+        "startup",
+        "entrepreneur",
+        "business plan",
+        "innovation",
+        "start-up denmark"
+      ],
+      "related_laws": [
+        "bus_company_types_001",
+        "bus_cvr_002"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Start-up-Denmark",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Standard businesses (restaurants, shops) won't qualify — must be genuinely innovative and scalable."
+    },
+    {
+      "id": "imm_eu_eea_010",
+      "category": "immigration",
+      "subcategory": "eu_citizens",
+      "title": "EU/EEA Citizens — Right to Work and Reside",
+      "title_da": "EU/EØS-borgere i Danmark",
+      "law_reference": "EU-opholdsbekendtgørelsen (EU Residence Order)",
+      "content": "EU/EEA citizens and Swiss nationals can live and work in Denmark without a work permit. For stays >3 months: obtain EU residence document from SIRI. Register in person at SIRI or International Citizen Service (ICS) in Copenhagen, Aalborg, Aarhus, or Odense. Required: valid passport/ID, employment contract or proof of funds. Nordic citizens need NO registration. Free of charge. Can work immediately upon arrival. Non-EU family members of EU citizens may also get residence rights.",
+      "summary": "EU/EEA citizens work freely. Register at SIRI for stays >3 months. Nordic citizens need nothing. Free.",
+      "key_facts": {
+        "fee": "Free",
+        "registration": "SIRI/ICS offices"
+      },
+      "keywords": [
+        "EU",
+        "EEA",
+        "free movement",
+        "residence document",
+        "Nordic",
+        "Switzerland"
+      ],
+      "related_laws": [
+        "imm_family_spouse_011",
+        "imm_permanent_residence_013"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Residence-as-a-Nordic-citizen-or-EU-EEA-citizen",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Visit an International Citizen Service (ICS) center — they handle SIRI, CPR, tax card, health insurance in one place."
+    },
+    {
+      "id": "imm_family_spouse_011",
+      "category": "immigration",
+      "subcategory": "family",
+      "title": "Family Reunification — Spouse or Cohabiting Partner",
+      "title_da": "Familiesammenføring — ægtefælle",
+      "law_reference": "Udlændingeloven §9, stk. 1, nr. 1",
+      "content": "Spouse/partner of a Denmark resident can apply for family reunification. Conditions: both ≥24 years old (exceptions for work permit holders' families), sponsor has permanent residence ≥3 years, adequate housing, financial guarantee ~DKK 100,000, combined ties to Denmark stronger than to other countries (attachment requirement). Work permit holders' families: simpler requirements — age limit and attachment requirement typically don't apply. Fee DKK 6,810.",
+      "summary": "Spouse can join partner. Both 24+, housing, financial guarantee. Simpler for work permit holders' families.",
+      "key_facts": {
+        "fee": "DKK 6,810",
+        "age_requirement": "Both ≥ 24 years",
+        "financial_guarantee": "~DKK 100,000"
+      },
+      "keywords": [
+        "spouse",
+        "family reunification",
+        "partner",
+        "familiesammenføring",
+        "marriage",
+        "wife",
+        "husband",
+        "bring family",
+        "bring spouse",
+        "bring wife",
+        "bring husband",
+        "come with me",
+        "join me",
+        "accompanied",
+        "cohabiting"
+      ],
+      "related_laws": [
+        "imm_family_children_012",
+        "imm_pay_limit_001"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Family/Spouse-or-cohabiting-partner",
+      "last_verified": "2025-02-22",
+      "practical_tips": "If your partner holds a work permit, your path is MUCH easier — age limit and attachment requirement don't apply."
+    },
+    {
+      "id": "imm_family_children_012",
+      "category": "immigration",
+      "subcategory": "family",
+      "title": "Family Reunification — Children Under 18",
+      "title_da": "Familiesammenføring — børn",
+      "law_reference": "Udlændingeloven §9, stk. 1, nr. 2",
+      "content": "Children under 15 (or 18 for work permit holders' children) can join parents in Denmark. Parent must have custody, permanent/eligible residence permit, child lives with parent. Work permit holders' children: simpler as accompanying family members. Permit valid same duration as parent's permit.",
+      "summary": "Children can join parents. Under 15 for standard, under 18 for work permit holders' children.",
+      "key_facts": {
+        "age_limit": "Under 15 (standard) / Under 18 (work permit holders)"
+      },
+      "keywords": [
+        "children",
+        "family reunification",
+        "minor",
+        "custody",
+        "accompanying family"
+      ],
+      "related_laws": [
+        "imm_family_spouse_011"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Family/Children",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Apply at the same time as your own work permit for fastest processing."
+    },
+    {
+      "id": "imm_permanent_residence_013",
+      "category": "immigration",
+      "subcategory": "permanent_residence",
+      "title": "Permanent Residence Permit in Denmark",
+      "title_da": "Permanent opholdstilladelse",
+      "law_reference": "Udlændingeloven §11",
+      "content": "Requirements: (1) 8 years continuous legal residence (4 with supplementary conditions). (2) Full-time work 3.5 of last 4 years. (3) Danish language PD3. (4) Citizenship & society test. (5) No public benefits last 4 years. (6) No criminal record. (7) No public debt. (8) Integration declaration signed. Supplementary conditions for 4-year path: 4 of last 4.5 years full-time, higher Danish level, minimum income. Provides unlimited right to live and work in Denmark.",
+      "summary": "Permanent residence after 8 years (or 4 with supplementary conditions). Requires employment, Danish PD3, clean record.",
+      "key_facts": {
+        "residence_requirement": "8 years (or 4)",
+        "language": "PD3",
+        "employment": "3.5 of last 4 years"
+      },
+      "keywords": [
+        "permanent residence",
+        "8 years",
+        "PD3",
+        "settlement",
+        "permanent opholdstilladelse"
+      ],
+      "related_laws": [
+        "imm_citizenship_014"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence-permit",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Start preparing early: take Danish classes (PD3 takes time), keep employment records, avoid ALL public benefits."
+    },
+    {
+      "id": "imm_citizenship_014",
+      "category": "immigration",
+      "subcategory": "citizenship",
+      "title": "Danish Citizenship (Naturalisation)",
+      "title_da": "Dansk indfødsret",
+      "law_reference": "Indfødsretsloven (Danish Nationality Act)",
+      "content": "Requires: 9 years continuous residence, Danish language PD3+, citizenship test (indfødsretsprøven), no criminal record, no public debt, self-support (no benefits last 2 years), loyalty declaration. Dual citizenship allowed since September 1, 2015. Granted by act of parliament (Folketinget). Processing 1-2 years.",
+      "summary": "Citizenship after 9 years. PD3 language, citizenship test, clean record. Dual citizenship allowed since 2015.",
+      "key_facts": {
+        "residence": "9 years",
+        "language": "PD3",
+        "dual_citizenship": "Allowed since 2015",
+        "processing": "1-2 years"
+      },
+      "keywords": [
+        "citizenship",
+        "naturalisation",
+        "indfødsret",
+        "passport",
+        "dual citizenship"
+      ],
+      "related_laws": [
+        "imm_permanent_residence_013"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Citizenship",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Dual citizenship allowed since 2015. Citizenship test covers Danish history, society, culture — study materials online."
+    },
+    {
+      "id": "imm_job_seeking_015",
+      "category": "immigration",
+      "subcategory": "job_seeking",
+      "title": "Job-Seeking Permit After Losing Employment",
+      "title_da": "Jobsøgningstilladelse",
+      "law_reference": "Udlændingeloven §9a, stk. 2, nr. 10",
+      "content": "If dismissed (not own fault) from Pay Limit, Positive List, Researcher, or Fast-Track (select tracks): 6-month job-seeking permit. Must apply within 2 DAYS of employment ending. No work allowed during search. Can start new job immediately upon submitting new work permit application. Supplementary Pay Limit does NOT qualify. Enclose letter of dismissal.",
+      "summary": "6-month job-seeking permit if dismissed not by own fault. Must apply within 2 days. No work during search.",
+      "key_facts": {
+        "validity": "6 months",
+        "deadline": "2 days after employment ends"
+      },
+      "keywords": [
+        "job seeking",
+        "unemployment",
+        "dismissed",
+        "fired",
+        "6 months",
+        "jobsøgning",
+        "lost job",
+        "termination",
+        "job-seeking permit",
+        "work ended",
+        "employment ended",
+        "lose job",
+        "permit after firing"
+      ],
+      "related_laws": [
+        "imm_pay_limit_001",
+        "imm_fast_track_002"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Jobseeking-permit",
+      "last_verified": "2025-02-22",
+      "practical_tips": "2-day deadline is STRICT. You can start working at a new job immediately after submitting a new application."
+    },
+    {
+      "id": "imm_visa_schengen_016",
+      "category": "immigration",
+      "subcategory": "visa",
+      "title": "Short-Stay Schengen Visa",
+      "title_da": "Schengenvisum",
+      "law_reference": "Udlændingeloven §4 and Schengen Borders Code",
+      "content": "For non-EU/EEA citizens needing short stay (up to 90 days in 180-day period). Apply at Danish embassy/consulate. Required: passport valid 3+ months beyond departure, travel health insurance ≥€30,000, accommodation proof, financial means proof, travel itinerary. Fee: €80 adults, €40 children 6-12, free under 6. Processing: up to 15 days. Does NOT allow work. Some nationalities are visa-exempt (including Ukrainian biometric passport holders).",
+      "summary": "Schengen visa for up to 90 days. €80 fee. No work allowed. Apply at embassy. 15-day processing.",
+      "key_facts": {
+        "fee": "€80 (adults)",
+        "validity": "90 days in 180-day period",
+        "processing": "Up to 15 days"
+      },
+      "keywords": [
+        "visa",
+        "Schengen",
+        "short stay",
+        "tourist",
+        "90 days",
+        "embassy"
+      ],
+      "related_laws": [
+        "imm_pay_limit_001"
+      ],
+      "source_url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Visit-and-holiday-in-Denmark",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Ukrainian citizens with biometric passports are visa-exempt for Schengen. Apply well in advance — some embassies have long wait times."
+    },
+    {
+      "id": "tax_personal_income_001",
+      "category": "tax",
+      "subcategory": "personal_tax",
+      "title": "Personal Income Tax System in Denmark",
+      "title_da": "Personbeskatning i Danmark",
+      "law_reference": "Personskatteloven and Kildeskatteloven",
+      "content": "Denmark has a progressive income tax with a new 4-tier state tax structure effective from 2026. Components: (1) AM-bidrag (Labour Market Contribution): 8% of gross income, deducted first. (2) Municipal tax: average ~25% (range 22.5-27.8% by municipality). (3) State bottom-bracket tax (bundskat): 12.01% on personal income above personal allowance. (4) State middle-bracket tax (mellemskat): 7.5% on personal income exceeding DKK 641,200 after AM-bidrag deduction. This replaces the former topskat (pre-2026). (5) State top-bracket tax (topskat): additional 7.5% on personal income exceeding DKK 777,900 after AM-bidrag. (6) State additional top-bracket tax (toptopskat): additional 5% on personal income exceeding DKK 2,592,700 after AM-bidrag. (7) Church tax: ~0.6-1.3%, only for members of the Evangelical Lutheran Church. Combined maximum marginal rate: ~60.5% including AM-bidrag. Personal allowance: approximately DKK 48,000 (2026). Employment deduction: 12.75% of income, max DKK 63,300 (2026). Tax withheld by employer via tax card. Annual return pre-filled by Skattestyrelsen, review by May 1. Children and young people under 18 are exempt from AM-bidrag from 2026.",
+      "summary": "2026 reform: 8% AM-bidrag + ~25% municipal + 12.01% bundskat + 7.5% mellemskat (>641,200) + 7.5% topskat (>777,900) + 5% toptopskat (>2,592,700). Max ~60.5%.",
+      "key_facts": {
+        "am_bidrag": "8%",
+        "municipal_tax": "~25% average (22.5-27.8%)",
+        "bundskat": "12.01%",
+        "mellemskat": "7.5% above DKK 641,200 (after AM-bidrag)",
+        "topskat": "7.5% above DKK 777,900 (after AM-bidrag)",
+        "toptopskat": "5% above DKK 2,592,700 (after AM-bidrag)",
+        "max_marginal_rate": "~60.5% including AM-bidrag",
+        "personal_allowance": "~DKK 48,000 (2026)",
+        "employment_deduction": "12.75%, max DKK 63,300 (2026)"
+      },
+      "keywords": [
+        "income tax",
+        "tax rate",
+        "topskat",
+        "bundskat",
+        "mellemskat",
+        "toptopskat",
+        "AM-bidrag",
+        "municipal tax",
+        "tax brackets",
+        "641200",
+        "777900",
+        "2592700"
+      ],
+      "related_laws": [
+        "tax_tax_card_002",
+        "tax_researcher_scheme_008"
+      ],
+      "source_url": "https://skat.dk/en-us/help/botton-bracket-middle-bracket-top-bracket-and-additional-top-bracket-tax",
+      "last_verified": "2026-02-23",
+      "practical_tips": "Major 2026 reform: old 15% topskat replaced by 3 new brackets. Most people below DKK 641,200 (after AM) see a tax CUT. Municipality matters — rates vary 5+ percentage points. Opt out of church tax if not a member (saves ~DKK 3,000-6,000/year). Employment deduction increased to 12.75% (max DKK 63,300)."
+    },
+    {
+      "id": "tax_tax_card_002",
+      "category": "tax",
+      "subcategory": "personal_tax",
+      "title": "Tax Card System — Hovedkort and Bikort",
+      "title_da": "Skattekort",
+      "law_reference": "Kildeskatteloven §4 and §48",
+      "content": "All workers need a tax card (skattekort). Two types: Hovedkort (main, includes personal allowance, lower rate) and Bikort (secondary jobs, no allowance, higher rate). Get via: CPR number → register at skat.dk. Electronic, shared with employer automatically. WITHOUT tax card: employer withholds at 55%. Foreign workers must apply immediately. Adjust at skat.dk if income changes. Self-employed use B-income system.",
+      "summary": "Tax card required. Hovedkort (primary, lower rate) vs Bikort (secondary, higher). Without card: 55% withholding.",
+      "key_facts": {
+        "without_card": "55% withholding"
+      },
+      "keywords": [
+        "tax card",
+        "skattekort",
+        "hovedkort",
+        "bikort",
+        "CPR",
+        "55%"
+      ],
+      "related_laws": [
+        "tax_personal_income_001",
+        "tax_moving_007"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals/tax-card",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Apply BEFORE starting work. Without a card you'll be taxed 55% and wait for a refund."
+    },
+    {
+      "id": "tax_deductions_003",
+      "category": "tax",
+      "subcategory": "deductions",
+      "title": "Common Tax Deductions for Employees",
+      "title_da": "Fradrag",
+      "law_reference": "Ligningsloven",
+      "content": "Key deductions: (1) Transport: >24km daily round-trip, DKK 2.30/km for 25-120km, DKK 1.15/km above 120km. (2) Employment deduction (beskæftigelsesfradrag): automatic 12.75% of income, max DKK 63,300 (2026 — increased from 10.65%/DKK 45,600). (3) Union fees: up to DKK 7,000/year. (4) A-kasse: fully deductible. (5) Pension contributions: before tax. (6) Mortgage interest: ~33% deduction. (7) Charitable donations: max DKK 18,900/year. Most reported automatically. Review pre-filled return by May 1.",
+      "summary": "Transport (>24km), auto employment deduction (12.75%, max DKK 63,300), union fees, A-kasse, pension, mortgage interest.",
+      "key_facts": {
+        "transport": "DKK 2.30/km (25-120km)",
+        "employment_deduction": "12.75%, max DKK 63,300 (2026)",
+        "union_max": "DKK 7,000/year",
+        "charitable_max": "DKK 18,900/year"
+      },
+      "keywords": [
+        "deductions",
+        "fradrag",
+        "transport",
+        "union",
+        "pension",
+        "mortgage"
+      ],
+      "related_laws": [
+        "tax_personal_income_001"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals",
+      "last_verified": "2026-01-01",
+      "practical_tips": "2026: Employment deduction raised to 12.75% (max DKK 63,300) — a significant increase. Transport deduction only applies above 24km round-trip. Check pre-filled return by May 1."
+    },
+    {
+      "id": "tax_vat_004",
+      "category": "tax",
+      "subcategory": "business_tax",
+      "title": "VAT (Moms) in Denmark — 25% Flat Rate",
+      "title_da": "Moms",
+      "law_reference": "Momsloven",
+      "content": "Denmark: single 25% VAT rate — NO reduced rates (unique in EU). Registration mandatory for businesses with revenue >DKK 50,000/year. VAT-registered businesses charge 25% and can deduct input VAT. Returns: quarterly (small: half-yearly/annually). Exempt: financial services, insurance, healthcare, education, real estate, non-profit sports/culture. Exports: 0%. Late filing: surcharge. VAT number = DK + CVR number.",
+      "summary": "Flat 25% VAT, no reduced rates. Registration mandatory above DKK 50,000 revenue.",
+      "key_facts": {
+        "rate": "25%",
+        "registration_threshold": "DKK 50,000/year",
+        "reduced_rates": "None"
+      },
+      "keywords": [
+        "VAT",
+        "moms",
+        "25%",
+        "registration",
+        "business",
+        "tax exempt"
+      ],
+      "related_laws": [
+        "bus_company_types_001",
+        "tax_corporate_005"
+      ],
+      "source_url": "https://skat.dk/en-us/businesses/vat",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Denmark is unique — NO reduced VAT rates. Everything is 25%. Below DKK 50,000 revenue you can opt out."
+    },
+    {
+      "id": "tax_corporate_005",
+      "category": "tax",
+      "subcategory": "business_tax",
+      "title": "Corporate Tax Rate — 22%",
+      "title_da": "Selskabsskat",
+      "law_reference": "Selskabsskatteloven",
+      "content": "Corporate tax: 22% on taxable income (stable since 2016). Mandatory joint taxation for Danish group companies. Losses carry forward indefinitely (60% cap above DKK 9,135,000). Dividend withholding: 22% (reducible by treaty). Transfer pricing rules apply. CFC rules for low-tax subsidiaries. Filing deadline: July 1. Advance tax: March 20 and November 20.",
+      "summary": "Corporate tax 22%. Joint taxation mandatory. Losses carry forward with 60% cap.",
+      "key_facts": {
+        "rate": "22%",
+        "dividend_withholding": "22%",
+        "filing_deadline": "July 1"
+      },
+      "keywords": [
+        "corporate tax",
+        "22%",
+        "selskabsskat",
+        "dividend",
+        "joint taxation"
+      ],
+      "related_laws": [
+        "tax_vat_004",
+        "bus_company_types_001"
+      ],
+      "source_url": "https://skat.dk/en-us/businesses",
+      "last_verified": "2025-02-22",
+      "practical_tips": "22% is competitive in the EU. Joint taxation means group losses offset profits."
+    },
+    {
+      "id": "tax_property_006",
+      "category": "tax",
+      "subcategory": "property_tax",
+      "title": "Property Tax in Denmark",
+      "title_da": "Ejendomsskat",
+      "law_reference": "Ejendomsværdiskatteloven and Ejendomsskatteloven",
+      "content": "Two property taxes: (1) Ejendomsværdiskat (property value tax): 0.51% up to DKK 3,040,000, 1.4% above. (2) Grundskyld (land tax): 1.6-3.4% by municipality. 2024 reform with new valuations and safety net. Mortgage interest deductible at ~33%.",
+      "summary": "Property value tax (0.51%/1.4%) + land tax (1.6-3.4% by municipality).",
+      "key_facts": {
+        "property_value_low": "0.51%",
+        "property_value_high": "1.4%",
+        "land_tax": "1.6-3.4%"
+      },
+      "keywords": [
+        "property tax",
+        "ejendomsskat",
+        "grundskyld",
+        "land tax",
+        "real estate"
+      ],
+      "related_laws": [
+        "tax_personal_income_001"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Property tax varies significantly by municipality. 2024 reform may change your assessed value."
+    },
+    {
+      "id": "tax_moving_007",
+      "category": "tax",
+      "subcategory": "personal_tax",
+      "title": "Tax When Moving to Denmark",
+      "title_da": "Skat ved tilflytning",
+      "law_reference": "Kildeskatteloven §1-2",
+      "content": "Tax residency from arrival date (or 6+ months stay). Steps: (1) Register address → CPR number. (2) Apply for tax card at skat.dk. (3) Inform employer. Full tax liability on worldwide income. 80+ double taxation treaties. May qualify for researcher tax scheme (27%) or key employee scheme. Report foreign accounts and income.",
+      "summary": "Tax residency from arrival. Get CPR → tax card → inform employer. Worldwide income taxable. 80+ tax treaties.",
+      "key_facts": {
+        "treaties": "80+ countries"
+      },
+      "keywords": [
+        "moving",
+        "tax residency",
+        "CPR",
+        "new in Denmark",
+        "double taxation"
+      ],
+      "related_laws": [
+        "tax_tax_card_002",
+        "tax_researcher_scheme_008"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals/tax-when-you-move-to-denmark",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Apply for CPR and tax card IMMEDIATELY. Without tax card: 55% withholding. Check researcher tax scheme eligibility."
+    },
+    {
+      "id": "tax_researcher_scheme_008",
+      "category": "tax",
+      "subcategory": "special_schemes",
+      "title": "Researcher Tax Scheme — 27% Flat Rate",
+      "title_da": "Forskerskatteordningen",
+      "law_reference": "Kildeskatteloven §48E-48F",
+      "content": "Reduced flat tax: 27% + 8% AM-bidrag = ~32.84% effective (vs normal up to ~60.5% in 2026). Eligibility: monthly salary ≥ DKK 65,400 (2026, after ATP/AM-bidrag), not Danish tax resident in prior 10 years, not subject to Danish tax in prior 5 years, employment with Danish/PE employer, no ≥25% controlling interest. Duration: up to 7 years (84 months). No standard deductions available. Apply to Skattestyrelsen within 48 months of starting.",
+      "summary": "27% flat tax (32.84% effective) for foreign specialists. Min DKK 65,400/month salary (2026). Up to 7 years.",
+      "key_facts": {
+        "rate": "27% + 8% AM-bidrag = ~32.84%",
+        "min_salary": "DKK 65,400/month (2026)",
+        "duration": "Up to 7 years",
+        "vs_normal_rate": "Saves ~28% vs standard top rate"
+      },
+      "keywords": [
+        "researcher tax",
+        "27%",
+        "forskerskatteordningen",
+        "flat rate",
+        "expat",
+        "specialist"
+      ],
+      "related_laws": [
+        "tax_personal_income_001",
+        "imm_researcher_006"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals",
+      "last_verified": "2026-01-01",
+      "practical_tips": "One of the most generous expat tax schemes in Europe. 2026: minimum salary threshold reduced to DKK 65,400/month, making scheme accessible to more foreign researchers and specialists. Apply within 48 months of start. Note: NO standard deductions while on this scheme."
+    },
+    {
+      "id": "tax_double_taxation_009",
+      "category": "tax",
+      "subcategory": "international_tax",
+      "title": "Double Taxation Treaties",
+      "title_da": "Dobbeltbeskatningsoverenskomster",
+      "law_reference": "Various bilateral tax treaties",
+      "content": "Denmark has 80+ double taxation agreements. Employment income: generally taxed where work performed. Dividends: source withholding typically 0-15% under treaty. Denmark primarily uses credit method — foreign tax credited against Danish tax. Report all foreign income on Danish return.",
+      "summary": "80+ tax treaties. Credit method used. Report all foreign income in Denmark.",
+      "key_facts": {
+        "treaties": "80+ countries",
+        "method": "Credit method"
+      },
+      "keywords": [
+        "double taxation",
+        "tax treaty",
+        "international",
+        "foreign income"
+      ],
+      "related_laws": [
+        "tax_personal_income_001",
+        "tax_moving_007"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Check the specific treaty with your home country. Keep docs of foreign taxes paid for credit claims."
+    },
+    {
+      "id": "tax_filing_010",
+      "category": "tax",
+      "subcategory": "personal_tax",
+      "title": "Tax Filing Deadlines",
+      "title_da": "Skattefrister",
+      "law_reference": "Skattekontrolloven",
+      "content": "Tax year: Jan-Dec. March: pre-filled return sent. May 1: deadline to review/correct personal return. July 1: corporate and self-employed deadline. Overpaid tax refunded automatically. Underpaid: installments possible. File online at skat.dk with MitID. Penalties for late/false filing.",
+      "summary": "Pre-filled return in March. Personal deadline May 1. Corporate July 1. File at skat.dk with MitID.",
+      "key_facts": {
+        "personal_deadline": "May 1",
+        "corporate_deadline": "July 1"
+      },
+      "keywords": [
+        "tax return",
+        "deadline",
+        "årsopgørelse",
+        "filing",
+        "May 1"
+      ],
+      "related_laws": [
+        "tax_personal_income_001"
+      ],
+      "source_url": "https://skat.dk/en-us/individuals",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Most is pre-filled — just log in and CHECK it. Especially if you have foreign income or multiple employers."
+    },
+    {
+      "id": "lab_working_hours_001",
+      "category": "labor",
+      "subcategory": "working_conditions",
+      "title": "Standard Working Hours in Denmark",
+      "title_da": "Arbejdstid",
+      "law_reference": "Arbejdstidsloven (EU Directive 2003/88/EC)",
+      "content": "No statutory standard working week — set by collective agreements (typically 37 hours Mon-Fri). EU Working Time Directive limits: max 48 hours/week average over 4 months, 11 hours daily rest, 1 rest day per week, 30-min break if >6 hours. Overtime: by collective agreement, typically 1.5x first 3 hours, 2x after. Night work max 8h/24h average. NO statutory minimum wage — set by collective agreements (~DKK 130-145/hr unskilled).",
+      "summary": "37-hour week (collective agreement). Max 48h/week average. 11h daily rest. No statutory minimum wage.",
+      "key_facts": {
+        "standard_week": "37 hours",
+        "max_weekly": "48h average",
+        "daily_rest": "11 hours",
+        "minimum_wage": "None statutory"
+      },
+      "keywords": [
+        "working hours",
+        "37 hours",
+        "overtime",
+        "rest",
+        "no minimum wage"
+      ],
+      "related_laws": [
+        "lab_collective_002",
+        "lab_termination_004"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Denmark has NO statutory minimum wage — your wage depends on contract/collective agreement."
+    },
+    {
+      "id": "lab_collective_002",
+      "category": "labor",
+      "subcategory": "labor_system",
+      "title": "The Danish Model — Collective Agreements",
+      "title_da": "Den danske model — overenskomster",
+      "law_reference": "Hovedaftalen (Main Agreement)",
+      "content": "Labor market regulated by collective agreements, not legislation ('The Danish Model'). ~80% of workers covered. Agreements set wages, hours, overtime, pension, holiday, notice periods. ~67% union membership. No statutory minimum wage — set by sector agreements (~DKK 130-145/hr unskilled). Labour Court handles disputes. Key organizations: DA (employers), FH (trade unions). Right to strike only when negotiating new agreements.",
+      "summary": "'Danish Model': collective agreements regulate labor. ~80% coverage. No minimum wage law.",
+      "key_facts": {
+        "coverage": "~80%",
+        "union_membership": "~67%"
+      },
+      "keywords": [
+        "Danish model",
+        "collective agreement",
+        "overenskomst",
+        "union",
+        "trade union"
+      ],
+      "related_laws": [
+        "lab_working_hours_001",
+        "lab_termination_004"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Even non-union members benefit from collective agreements at their workplace. Consider joining a union — fees are tax-deductible."
+    },
+    {
+      "id": "lab_vacation_003",
+      "category": "labor",
+      "subcategory": "leave",
+      "title": "Annual Vacation — 5 Weeks Paid Leave",
+      "title_da": "Ferieloven",
+      "law_reference": "Ferieloven LBK nr. 230 af 12/02/2021",
+      "content": "25 vacation days/year (5 weeks). Earn 2.08 days/month. Simultaneous system since Sep 2020 (earn and use same period, Sep 1 - Aug 31). Holiday pay: normal salary (monthly workers) or 12.5% of earnings (hourly). 1% holiday supplement (ferietillæg) paid Apr/May. 3 weeks must be consecutive between May 1 - Sep 30. 5th week can be paid out if unused. Public holidays are separate. Some collective agreements give 6 weeks.",
+      "summary": "25 vacation days (5 weeks). 2.08 days/month. Holiday pay = salary or 12.5%. 1% supplement.",
+      "key_facts": {
+        "days": "25/year",
+        "earning": "2.08/month",
+        "holiday_pay": "12.5% (hourly)",
+        "supplement": "1%"
+      },
+      "keywords": [
+        "vacation",
+        "holiday",
+        "ferie",
+        "25 days",
+        "5 weeks",
+        "12.5%",
+        "ferieloven"
+      ],
+      "related_laws": [
+        "lab_working_hours_001"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "You earn vacation from day one. The 1% holiday supplement is a bonus paid in spring. Some agreements give a 6th week."
+    },
+    {
+      "id": "lab_termination_004",
+      "category": "labor",
+      "subcategory": "employment",
+      "title": "Notice Periods for Termination",
+      "title_da": "Opsigelsesvarsler",
+      "law_reference": "Funktionærloven §2",
+      "content": "For Funktionærer (salaried employees): Employer notice by tenure: 0-5 months: 1 month; 6m-2y11m: 3 months; 3y-5y11m: 4 months; 6y-8y11m: 5 months; 9y+: 6 months. Employee: always 1 month. Probation (first 3 months if agreed): 14 days. Notice before month-end, effective end of following month. Severance: 1 month salary (12+ years) or 3 months (17+ years). Manual workers: shorter notice per collective agreement. Unfair dismissal can lead to compensation.",
+      "summary": "Employer notice: 1-6 months by tenure. Employee: 1 month. Probation: 14 days. Severance after 12/17 years.",
+      "key_facts": {
+        "employee_notice": "1 month",
+        "probation": "14 days",
+        "max_employer_notice": "6 months (9+ years)"
+      },
+      "keywords": [
+        "fired",
+        "dismissed",
+        "termination",
+        "notice period",
+        "funktionærloven",
+        "severance",
+        "probation",
+        "lay off",
+        "lose job",
+        "get fired",
+        "redundancy",
+        "job loss",
+        "sacked",
+        "let go",
+        "end of employment"
+      ],
+      "related_laws": [
+        "lab_employment_contract_005",
+        "lab_collective_002"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Check if you're covered by Funktionærloven. During notice you're entitled to time off for job interviews."
+    },
+    {
+      "id": "lab_employment_contract_005",
+      "category": "labor",
+      "subcategory": "employment",
+      "title": "Employment Contract Requirements",
+      "title_da": "Ansættelsesbevis",
+      "law_reference": "Lov om ansættelsesbeviser (EU Directive 2019/1152)",
+      "content": "Written contract required within 7 days (since July 2023) for employees working >8 hours/week. Must include: employer/employee names, workplace, job title/description, start date, salary/pension/supplements, working hours/overtime, notice periods, vacation, applicable collective agreement, probation, training. Penalty for non-compliance: DKK 5,000-25,000 compensation. Changes must be notified in writing by first day of change.",
+      "summary": "Written contract within 7 days. Must include salary, hours, notice, vacation. Penalty if not provided.",
+      "key_facts": {
+        "deadline": "7 days",
+        "penalty": "DKK 5,000-25,000"
+      },
+      "keywords": [
+        "employment contract",
+        "ansættelsesbevis",
+        "7 days",
+        "written contract"
+      ],
+      "related_laws": [
+        "lab_termination_004",
+        "lab_working_hours_001"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Insist on receiving your contract within 7 days — it's your legal right. Review all terms carefully."
+    },
+    {
+      "id": "lab_sick_leave_006",
+      "category": "labor",
+      "subcategory": "leave",
+      "title": "Sick Leave and Sick Pay",
+      "title_da": "Sygedagpenge",
+      "law_reference": "Sygedagpengeloven",
+      "content": "Employer pays sick pay for first 30 days. Funktionærer: full salary. Others: per collective agreement or max benefit rate. After 30 days: municipality pays sygedagpenge (max DKK 4,660/week 2025). Many agreements supplement to near-full pay. Qualifying: 8 weeks employment + 74 hours. Notify employer day 1. Doctor's note: usually from day 3. Long-term: up to 22 weeks in 9 months before reassessment.",
+      "summary": "Employer pays 30 days (full salary for Funktionærer). Then municipality max DKK 4,660/week. Doctor's note from day 3.",
+      "key_facts": {
+        "employer_period": "30 days",
+        "municipal_max": "DKK 4,660/week",
+        "qualifying": "8 weeks + 74 hours"
+      },
+      "keywords": [
+        "sick leave",
+        "sick pay",
+        "sygedagpenge",
+        "illness",
+        "doctor note"
+      ],
+      "related_laws": [
+        "lab_employment_contract_005"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Always notify employer on day 1 of illness. Funktionærer get FULL salary during sick leave."
+    },
+    {
+      "id": "lab_maternity_007",
+      "category": "labor",
+      "subcategory": "leave",
+      "title": "Maternity, Paternity, and Parental Leave — 52 Weeks",
+      "title_da": "Barselsloven",
+      "law_reference": "Barselsloven",
+      "content": "52 weeks total parental leave. Since Aug 2022: Mother: 4 weeks pre-birth + 10 weeks post-birth. Father/co-parent: 2 weeks at birth + earmarked weeks. Each parent: 11 weeks non-transferable (use or lose). Benefits: max DKK 4,660/week. Many employers top up to full salary. Qualifying: 160 hours in 4 months before leave. Same-sex couples and adoption: adapted rules.",
+      "summary": "52 weeks total. 11 weeks earmarked per parent (non-transferable). Benefits ~DKK 4,660/week. Many employers top up.",
+      "key_facts": {
+        "total": "52 weeks",
+        "earmarked": "11 weeks/parent",
+        "benefit": "DKK 4,660/week max"
+      },
+      "keywords": [
+        "maternity",
+        "paternity",
+        "parental leave",
+        "barsel",
+        "52 weeks",
+        "earmarked"
+      ],
+      "related_laws": [
+        "lab_sick_leave_006"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Each parent has 11 non-transferable weeks since 2022. Many large employers offer full salary during leave."
+    },
+    {
+      "id": "lab_a_kasse_008",
+      "category": "labor",
+      "subcategory": "social_security",
+      "title": "A-kasse — Unemployment Insurance",
+      "title_da": "Arbejdsløshedskasse",
+      "law_reference": "Lov om arbejdsløshedsforsikring",
+      "content": "Voluntary unemployment insurance fund (A-kasse). If you are fired or dismissed from your job in Denmark, A-kasse provides income protection. Benefits: up to 90% of previous salary, max DKK 20,359/month (2025). Duration: 2 years in a 3-year period. Qualifying: 1 year membership + 1,924 hours worked in 3 years. Must actively seek work, attend Jobcenter meetings. Monthly fees: DKK 300-600 (tax-deductible). Many A-kasser available (industry-specific or general). EU citizens can transfer insurance periods from other EU countries. Important: Join before you get fired — 1-year waiting period applies.",
+      "summary": "Voluntary. Up to 90% of salary (max DKK 20,359/month) for 2 years. 1 year membership + 1,924 hours required.",
+      "key_facts": {
+        "max_benefit": "DKK 20,359/month",
+        "duration": "2 years",
+        "qualifying": "1 year + 1,924 hours",
+        "fee": "DKK 300-600/month"
+      },
+      "keywords": [
+        "A-kasse",
+        "unemployment",
+        "insurance",
+        "benefits",
+        "jobcenter",
+        "fired",
+        "job loss",
+        "unemployed",
+        "lost job",
+        "dismissed",
+        "unemployment benefits",
+        "dagpenge",
+        "work ended"
+      ],
+      "related_laws": [
+        "lab_collective_002",
+        "tax_deductions_003"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Join A-kasse ASAP — 1-year wait before benefits. Fees are tax-deductible. EU citizens can transfer periods."
+    },
+    {
+      "id": "lab_pension_009",
+      "category": "labor",
+      "subcategory": "social_security",
+      "title": "Pension System — ATP and Occupational Pension",
+      "title_da": "Pensionssystemet",
+      "law_reference": "ATP-loven",
+      "content": "Three pillars: (1) Folkepension (public): from age 67, requires 40 years residence for full amount. (2) ATP: mandatory for employees 9+ hrs/week, DKK 3,408/year (2/3 employer, 1/3 employee). (3) Occupational pension (arbejdsmarkedspension): via collective agreements, typically 12-17% of salary. Common providers: PFA, Danica, Velliv. Contributions tax-deductible. Foreign workers leaving Denmark may withdraw some pension depending on type and treaty.",
+      "summary": "Three-pillar: public (age 67), ATP (mandatory ~DKK 3,408/year), occupational (12-17% of salary).",
+      "key_facts": {
+        "retirement_age": "67",
+        "atp": "DKK 3,408/year",
+        "occupational": "12-17% of salary"
+      },
+      "keywords": [
+        "pension",
+        "ATP",
+        "retirement",
+        "folkepension",
+        "occupational pension"
+      ],
+      "related_laws": [
+        "tax_personal_income_001",
+        "lab_collective_002"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Occupational pension is your main retirement savings. If leaving Denmark, check withdrawal options with your provider."
+    },
+    {
+      "id": "lab_workplace_safety_010",
+      "category": "labor",
+      "subcategory": "working_conditions",
+      "title": "Workplace Safety — Arbejdstilsynet",
+      "title_da": "Arbejdsmiljøloven",
+      "law_reference": "Arbejdsmiljøloven (Working Environment Act)",
+      "content": "The Working Environment Act requires employers to ensure safe and healthy working conditions. Arbejdstilsynet (Danish Working Environment Authority) conducts inspections and enforces compliance. Requirements: workplace risk assessment (APV) every 3 years, safety organization in companies with 10+ employees, reporting of serious accidents within 24 hours, training for dangerous work. Employers must prevent physical, psychological, and chemical hazards. Employees have the right to refuse dangerous work. Violations can result in fines or criminal prosecution. Special rules for: construction, chemicals, heavy lifting, screen work, and psychological work environment.",
+      "summary": "Employers must ensure safe workplace. Risk assessment every 3 years. Arbejdstilsynet enforces. Accidents reported within 24h.",
+      "key_facts": {
+        "risk_assessment": "Every 3 years (APV)",
+        "safety_org": "Required for 10+ employees",
+        "accident_reporting": "24 hours"
+      },
+      "keywords": [
+        "workplace safety",
+        "Arbejdstilsynet",
+        "working environment",
+        "APV",
+        "risk assessment"
+      ],
+      "related_laws": [
+        "lab_working_hours_001",
+        "lab_sick_leave_006"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Every company must have an APV (workplace risk assessment). Employees can report unsafe conditions anonymously to Arbejdstilsynet."
+    },
+    {
+      "id": "bus_company_types_001",
+      "category": "business",
+      "subcategory": "company_formation",
+      "title": "Types of Companies — ApS, A/S, ENK",
+      "title_da": "Selskabsformer",
+      "law_reference": "Selskabsloven",
+      "content": "How to open a business in Denmark — main company types: Main types: (1) ApS (Private Limited): most popular, min capital DKK 40,000, limited liability, 1+ owners, board optional. (2) A/S (Public Limited): min DKK 400,000, board required, for publicly traded. (3) IVS (Entrepreneurial): abolished April 2019 for new registrations. (4) ENK (Sole Proprietorship): no min capital, unlimited personal liability, simplest. (5) I/S (General Partnership): 2+ partners, unlimited liability. (6) K/S (Limited Partnership). (7) P/S (Partner Company). All except sole proprietorships register at Virk.dk for CVR number.",
+      "summary": "Main: ApS (DKK 40K), A/S (DKK 400K), ENK (sole proprietor). Register at Virk.dk.",
+      "key_facts": {
+        "aps_capital": "DKK 40,000",
+        "as_capital": "DKK 400,000",
+        "registration": "Virk.dk"
+      },
+      "keywords": [
+        "ApS",
+        "A/S",
+        "company type",
+        "limited liability",
+        "business structure",
+        "ENK",
+        "open business",
+        "start business",
+        "small business",
+        "sole trader",
+        "enkeltmandsvirksomhed",
+        "register company",
+        "company formation",
+        "business registration",
+        "self employed"
+      ],
+      "related_laws": [
+        "bus_cvr_002",
+        "tax_corporate_005"
+      ],
+      "source_url": "https://virk.dk/en/",
+      "last_verified": "2025-02-22",
+      "practical_tips": "For most foreign entrepreneurs: ApS is best. DKK 40,000 capital, limited liability, register online in 1-2 days."
+    },
+    {
+      "id": "bus_cvr_002",
+      "category": "business",
+      "subcategory": "company_formation",
+      "title": "CVR Number — Business Registration",
+      "title_da": "CVR-registrering",
+      "law_reference": "CVR-loven and Selskabsloven",
+      "content": "All businesses need a CVR number (8-digit unique ID). Register at Virk.dk using MitID. Provide: company name, address, management, ownership, articles of association (vedtægter), bank capital confirmation. Cost: DKK 670 (ApS/A/S online), free (sole proprietorship). Processing: 1-2 business days. CVR = VAT number with 'DK' prefix. Publicly searchable register. Foreign companies with PE in Denmark must also register.",
+      "summary": "CVR number required. Register at Virk.dk. DKK 670 for ApS/A/S. 1-2 days processing.",
+      "key_facts": {
+        "cost": "DKK 670 (ApS/A/S)",
+        "processing": "1-2 days"
+      },
+      "keywords": [
+        "CVR",
+        "registration",
+        "Virk",
+        "business number",
+        "VAT number"
+      ],
+      "related_laws": [
+        "bus_company_types_001",
+        "tax_vat_004"
+      ],
+      "source_url": "https://virk.dk/en/",
+      "last_verified": "2025-02-22",
+      "practical_tips": "CVR = your VAT number (add 'DK' prefix). Registration is fast and fully online. You need MitID."
+    },
+    {
+      "id": "bus_gdpr_003",
+      "category": "business",
+      "subcategory": "data_protection",
+      "title": "GDPR and Data Protection",
+      "title_da": "Databeskyttelse",
+      "law_reference": "Databeskyttelsesloven nr. 502 af 23/05/2018 + EU GDPR",
+      "content": "GDPR implemented via Danish Data Protection Act. Datatilsynet is supervisory authority. DPO required for public authorities and large-scale data processing. Breach notification: 72 hours to Datatilsynet. CPR numbers: special rules. Fines up to €20M or 4% global turnover. CCTV regulated separately (TV-overvågningsloven). Employee monitoring requires specific justification.",
+      "summary": "GDPR applies. Datatilsynet supervises. 72h breach notification. Fines up to €20M or 4% turnover.",
+      "key_facts": {
+        "authority": "Datatilsynet",
+        "breach_notification": "72 hours",
+        "max_fine": "€20M or 4% turnover"
+      },
+      "keywords": [
+        "GDPR",
+        "data protection",
+        "Datatilsynet",
+        "privacy",
+        "databeskyttelse"
+      ],
+      "related_laws": [
+        "bus_company_types_001"
+      ],
+      "source_url": "https://www.datatilsynet.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "CPR numbers are extra-sensitive in Denmark. Cookie consent is mandatory for websites targeting Danish users."
+    },
+    {
+      "id": "bus_annual_reporting_004",
+      "category": "business",
+      "subcategory": "reporting",
+      "title": "Annual Reporting Requirements",
+      "title_da": "Årsrapport",
+      "law_reference": "Årsregnskabsloven",
+      "content": "All companies (ApS, A/S) must submit annual reports. By size: Micro (assets ≤ DKK 2.7M, revenue ≤ DKK 5.4M, ≤10 employees): simplified, no audit. Small: limited reporting, usually no audit. Medium/Large: full reporting with audit. Deadline: 5 months after year-end. Late penalty from DKK 500. Digital filing via Virk.dk mandatory. All reports publicly available.",
+      "summary": "Annual reports required. 5-month deadline. Micro/small: no audit needed. Digital filing at Virk.dk.",
+      "key_facts": {
+        "deadline": "5 months after year-end",
+        "late_penalty": "From DKK 500",
+        "audit_exempt": "Micro and most small companies"
+      },
+      "keywords": [
+        "annual report",
+        "årsrapport",
+        "audit",
+        "reporting",
+        "Erhvervsstyrelsen"
+      ],
+      "related_laws": [
+        "bus_company_types_001",
+        "tax_corporate_005"
+      ],
+      "source_url": "https://virk.dk/en/",
+      "last_verified": "2025-02-22",
+      "practical_tips": "Most small ApS companies are audit-exempt — saves significant cost. All reports are PUBLIC in Denmark."
+    },
+    {
+      "id": "bus_consumer_rights_005",
+      "category": "business",
+      "subcategory": "consumer_protection",
+      "title": "Consumer Rights and Protection",
+      "title_da": "Forbrugerrettigheder",
+      "law_reference": "Forbrugeraftaleloven and Købeloven",
+      "content": "Strong consumer protection: 24-month warranty (reklamationsret) — burden on seller first 12 months. 14-day return right for online purchases (fortrydelsesret) — no reason needed (exceptions: custom, perishable, hygiene, digital). All prices must include VAT. Consumer Ombudsman (Forbrugerombudsmanden) enforces. Complaints Board handles disputes DKK 1,110-100,000. Subscription cancellation: 1 month notice after binding period.",
+      "summary": "24-month warranty. 14-day online return right. Prices must include VAT. Consumer Ombudsman enforces.",
+      "key_facts": {
+        "warranty": "24 months",
+        "online_return": "14 days",
+        "price_display": "Must include VAT"
+      },
+      "keywords": [
+        "consumer rights",
+        "warranty",
+        "return",
+        "14 days",
+        "consumer protection"
+      ],
+      "related_laws": [
+        "tax_vat_004"
+      ],
+      "source_url": "https://www.retsinformation.dk",
+      "last_verified": "2025-02-22",
+      "practical_tips": "If selling online to Danish consumers: 14-day return is mandatory. All prices MUST include 25% VAT."
+    }
+  ]
+}

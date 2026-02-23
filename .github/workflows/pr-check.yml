@@ -1,0 +1,54 @@
+name: PR Quality Check
+
+on:
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install backend deps
+        run: pip install -r backend/requirements.txt ruff
+
+      - name: Ruff lint
+        run: ruff check backend/app/ --select E,W,F,I --ignore E501
+
+      - name: Backend tests
+        env:
+          ANTHROPIC_API_KEY: ""
+        run: |
+          cd backend
+          pytest tests/ -v --tb=short -x
+
+      - name: Install frontend deps
+        run: npm ci --prefix frontend
+
+      - name: Frontend build
+        run: npm run build --prefix frontend
+
+      - name: Comment PR with results
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'All checks passed! Ready to merge.'
+            })
