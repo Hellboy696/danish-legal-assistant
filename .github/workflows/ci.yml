@@ -119,7 +119,7 @@ jobs:
     name: Deploy to Railway
     runs-on: ubuntu-latest
     needs: docker-build
-    if: github.ref == 'refs/heads/main'
+    if: false  # disabled until RAILWAY_TOKEN secret is configured
     environment: production
 
     steps:
