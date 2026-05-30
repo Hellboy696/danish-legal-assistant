@@ -2,7 +2,7 @@ from fastapi import APIRouter, Request
 from fastapi.responses import StreamingResponse
 
 from app.models.schemas import ChatRequest, ChatResponse
-from app.services.llm_service import llm_service, _CONVERSATIONS
+from app.services.llm_service import _CONVERSATIONS, llm_service
 from app.utils.limiter import limiter
 
 router = APIRouter(prefix="/chat", tags=["chat"])

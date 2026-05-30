@@ -1,10 +1,9 @@
 import time
-import structlog
 from contextlib import asynccontextmanager
 
+import structlog
 from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 
@@ -12,9 +11,9 @@ from app.config import settings
 from app.models.database import db
 from app.models.schemas import HealthResponse
 from app.routers import chat, laws, search
+from app.services.cache_service import cache
 from app.services.law_service import law_service
 from app.services.search_service import search_service
-from app.services.cache_service import cache
 from app.utils.embeddings import embedder
 from app.utils.limiter import limiter  # shared singleton used by routers too
 

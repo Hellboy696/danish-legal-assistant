@@ -15,6 +15,7 @@ import re
 import uuid
 from typing import AsyncGenerator, Optional
 
+import anthropic
 import structlog
 
 from app.config import settings
@@ -23,10 +24,10 @@ from app.models.schemas import (
     ChatResponse,
     CitedSource,
     ConversationMessage,
+    SearchRequest,
     SearchResultItem,
 )
 from app.services.search_service import search_service
-from app.models.schemas import SearchRequest
 
 log = structlog.get_logger()
 
@@ -42,8 +43,7 @@ def _get_client() -> "anthropic.Anthropic":  # type: ignore[name-defined]
     """Return (or lazily create) the shared Anthropic client."""
     global _anthropic_client
     if _anthropic_client is None:
-        import anthropic as _anthropic
-        _anthropic_client = _anthropic.Anthropic(api_key=settings.anthropic_api_key)
+        _anthropic_client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
         log.info("anthropic.client.created")
     return _anthropic_client
 
@@ -194,8 +194,7 @@ def _fallback_response(
         "business": "Danish business law",
     }
     cat_label = _CATEGORY_LABELS.get(primary.category, "Danish law")
-    import re as _re
-    snippet = _re.sub(r"</?mark>", "", primary.snippet) if primary.snippet else ""
+    snippet = re.sub(r"</?mark>", "", primary.snippet) if primary.snippet else ""
 
     answer = (
         f"Based on {cat_label}, the most relevant regulation is "

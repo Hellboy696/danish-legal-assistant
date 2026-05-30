@@ -10,8 +10,8 @@ from app.models.schemas import (
     CategoriesResponse,
     CategoryInfo,
     LawDetail,
-    LawSummary,
     LawsListResponse,
+    LawSummary,
     StatsResponse,
     SubcategoryInfo,
 )
@@ -62,19 +62,19 @@ class LawService:
         filtered = cls._laws
 
         if category:
-            filtered = [l for l in filtered if l["category"] == category]
+            filtered = [law for law in filtered if law["category"] == category]
 
         if subcategory:
-            filtered = [l for l in filtered if l.get("subcategory") == subcategory]
+            filtered = [law for law in filtered if law.get("subcategory") == subcategory]
 
         if search:
             q = search.lower()
             filtered = [
-                l for l in filtered
-                if q in l["title"].lower()
-                or q in l.get("content", "").lower()
-                or any(q in kw.lower() for kw in l.get("keywords", []))
-                or q in l.get("summary", "").lower()
+                law for law in filtered
+                if q in law["title"].lower()
+                or q in law.get("content", "").lower()
+                or any(q in kw.lower() for kw in law.get("keywords", []))
+                or q in law.get("summary", "").lower()
             ]
 
         total = len(filtered)
@@ -84,22 +84,22 @@ class LawService:
 
         summaries = [
             LawSummary(
-                id=l["id"],
-                category=l["category"],
-                subcategory=l.get("subcategory"),
-                title=l["title"],
-                title_da=l.get("title_da"),
-                law_reference=l["law_reference"],
-                summary=l.get("summary"),
-                keywords=l.get("keywords", []),
-                key_facts=l.get("key_facts"),
-                source_url=l.get("source_url"),
-                last_verified=l.get("last_verified"),
-                date_enacted=l.get("date_enacted"),
-                date_updated=l.get("date_updated") or l.get("last_verified"),
-                content_preview=l["content"][:200],
+                id=law["id"],
+                category=law["category"],
+                subcategory=law.get("subcategory"),
+                title=law["title"],
+                title_da=law.get("title_da"),
+                law_reference=law["law_reference"],
+                summary=law.get("summary"),
+                keywords=law.get("keywords", []),
+                key_facts=law.get("key_facts"),
+                source_url=law.get("source_url"),
+                last_verified=law.get("last_verified"),
+                date_enacted=law.get("date_enacted"),
+                date_updated=law.get("date_updated") or law.get("last_verified"),
+                content_preview=law["content"][:200],
             )
-            for l in page_laws
+            for law in page_laws
         ]
 
         return LawsListResponse(

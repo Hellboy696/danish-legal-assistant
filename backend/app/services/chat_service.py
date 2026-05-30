@@ -1,4 +1,9 @@
-from app.models.schemas import ChatRequest, ChatResponse, SearchRequest, SearchResultItem
+from app.models.schemas import (
+    ChatRequest,
+    ChatResponse,
+    SearchRequest,
+    SearchResultItem,
+)
 from app.services.search_service import search_service
 
 _CATEGORY_LABELS = {
